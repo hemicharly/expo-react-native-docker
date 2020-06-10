@@ -1501,6 +1501,17 @@ babel-plugin-syntax-trailing-function-commas@^7.0.0-beta.0:
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-trailing-function-commas/-/babel-plugin-syntax-trailing-function-commas-7.0.0-beta.0.tgz#aa213c1435e2bffeb6fca842287ef534ad05d5cf"
   integrity sha512-Xj9XuRuz3nTSbaTXWv3itLOcxyF4oPD8douBBmj7U9BBC6nEBYfyOJYQMf/8PJAFotC62UY5dFfIGEPr7WswzQ==
 
+babel-preset-expo@^8.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/babel-preset-expo/-/babel-preset-expo-8.2.1.tgz#a5e20d67dc059b23aee57f093a5c05c7592e5e5a"
+  integrity sha512-2ghC+o8ljSH1vUv65dzGq6bNWvuqCFplkF9jESa6HzOCgATFoiOC9koeReE2/wXs7TxLZMVlZbtryJPRLbXwAg==
+  dependencies:
+    "@babel/plugin-proposal-decorators" "^7.6.0"
+    "@babel/preset-env" "^7.6.3"
+    babel-plugin-module-resolver "^3.2.0"
+    babel-plugin-react-native-web "^0.11.7"
+    metro-react-native-babel-preset "^0.56.0"
+
 babel-preset-expo@~8.1.0:
   version "8.1.1"
   resolved "https://registry.yarnpkg.com/babel-preset-expo/-/babel-preset-expo-8.1.1.tgz#7b6bd561ee598197c7f49572c85f3f45df94d57e"
@@ -2357,7 +2368,7 @@ expo-web-browser@~8.2.1:
   dependencies:
     compare-urls "^2.0.0"
 
-expo@~37.0.3:
+expo@^37.0.12:
   version "37.0.12"
   resolved "https://registry.yarnpkg.com/expo/-/expo-37.0.12.tgz#9e1a7ce138cd6c580a112e20992754c7c7e9c97e"
   integrity sha512-roqGc7zTh3esYxAi95AWpNkrztO6istuKQNfYNwHbWmHbqbilZLzRNb844WWK++Uy4UxaObO5ymmacZyq4JnwA==
@@ -5077,10 +5088,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@~3.8.3:
-  version "3.8.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
-  integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+typescript@^3.9.5:
+  version "3.9.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
+  integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
 
 ua-parser-js@^0.7.18:
   version "0.7.21"
