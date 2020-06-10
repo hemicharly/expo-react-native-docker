@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  app-react-native:
+    container_name: app-react-native
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - 19001:19001 # Port access app mobile
+      - 19002:19002 # Port manager project
+      - 19006:19006 # Port access app web
+    volumes:
+      - ./app:/application
+
